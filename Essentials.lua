@@ -38,8 +38,8 @@ local Tab4 = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab4:AddLabel("Zivixian: Script Editor (2375#2375)")
-Tab4:AddLabel("ENZ0 & NetBox: Original Script Developers (ENZ0#7514, troy#0666)")
-Tab4:AddLabel("My dad: For leaving me")
+Tab4:AddLabel("ENZ0 & NetBox: Original Developers (ENZ0#7514, troy#0666)")
+Tab4:AddLabel("Wally: Wally's Autoplayer Script Developer")
 
 Tab3:AddButton({
 	Name = "Destroy GUI",
