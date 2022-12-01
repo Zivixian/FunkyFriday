@@ -80,19 +80,10 @@ Tab2:AddButton({
   	end    
 })
 
-Tab2:AddLabel("You might need to rejoin before using any of these")
-
 Tab2:AddButton({
 	Name = "Redeem All Codes",
 	Callback = function()
        	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Zivixian/FunkyFridayFeatures/main/AllCodes.lua", true))()
-  	end    
-})
-
-Tab2:AddButton({
-	Name = "Aus_si Animation",
-	Callback = function()
-       	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Zivixian/FunkyFridayFeatures/main/DevAnimation.lua", true))()
   	end    
 })
 
