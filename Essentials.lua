@@ -48,26 +48,26 @@ Tab3:AddButton({
   	end    
 })
 
-Tab:AddLabel("2 accounts needed for winstreak farm")
+Tab:AddLabel("Autoplayer needed for farms, 2 accounts for winstreak farms")
 
 Tab:AddButton({
 	Name = "Points Farm",
 	Callback = function()
-       	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zivixian/FunkyFriday/main/PointFarm.lua",true))()
+       	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zivixian/FunkyFridayFeatures/main/PointFarm.lua",true))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "Winstreak Farm (Left)",
 	Callback = function()
-       	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zivixian/FunkyFriday/main/WinstreakLeft.lua",true))()
+       	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zivixian/FunkyFridayFeatures/main/WinstreakLeft.lua",true))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "Winstreak Farm (Right)",
 	Callback = function()
-       	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zivixian/FunkyFriday/main/WinstreakRight.lua",true))()
+       	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zivixian/FunkyFridayFeatures/main/WinstreakRight.lua",true))()
   	end    
 })
 
@@ -81,14 +81,14 @@ Tab2:AddButton({
 Tab2:AddButton({
 	Name = "Redeem All Codes",
 	Callback = function()
-       	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Zivixian/FunkyFriday/main/AllCodes.lua", true))()
+       	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Zivixian/FunkyFridayFeatures/main/AllCodes.lua", true))()
   	end    
 })
 
 Tab2:AddButton({
 	Name = "Extra Free Stuff",
 	Callback = function()
-       	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Zivixian/FunkyFriday/main/ExtraStuff.lua", true))()
+       	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Zivixian/FunkyFridayFeatures/main/ExtraStuff.lua", true))()
   	end    
 })
 
