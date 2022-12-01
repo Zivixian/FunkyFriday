@@ -86,7 +86,7 @@ Tab2:AddButton({
 })
 
 Tab2:AddButton({
-	Name = "Extra Free Stuff",
+	Name = "Extra Free Stuff (Rejoin before and after clicking)",
 	Callback = function()
        	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Zivixian/FunkyFridayFeatures/main/ExtraStuff.lua", true))()
   	end    
