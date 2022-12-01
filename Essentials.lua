@@ -90,9 +90,9 @@ Tab2:AddButton({
 })
 
 Tab2:AddButton({
-	Name = "Extra Free Stuff",
+	Name = "Aus_si Animation + Youtuber Mic",
 	Callback = function()
-       	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Zivixian/FunkyFridayFeatures/main/ExtraStuff.lua", true))()
+       	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Zivixian/FunkyFridayFeatures/main/Aus_siAnimation.lua", true))()
   	end    
 })
 
