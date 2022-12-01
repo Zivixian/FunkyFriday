@@ -71,12 +71,16 @@ Tab:AddButton({
   	end    
 })
 
+Tab2:AddLabel("Aus_si notes can be obtained using Wally's Autoplayer")
+
 Tab2:AddButton({
 	Name = "Autoplayer (Wally's)",
 	Callback = function()
        	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
   	end    
 })
+
+Tab2:AddLabel("You might need to rejoin before using any of these")
 
 Tab2:AddButton({
 	Name = "Redeem All Codes",
@@ -86,7 +90,7 @@ Tab2:AddButton({
 })
 
 Tab2:AddButton({
-	Name = "Extra Free Stuff (Rejoin before and after clicking)",
+	Name = "Extra Free Stuff",
 	Callback = function()
        	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Zivixian/FunkyFridayFeatures/main/ExtraStuff.lua", true))()
   	end    
