@@ -12,7 +12,7 @@ end)
 --Normal Script Below
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
  
-local Window = OrionLib:MakeWindow({Name = "Funky Friday Essentials"})
+local Window = OrionLib:MakeWindow({Name = "Funky Friday: PB"})
  
 local Tab = Window:MakeTab({
 	Name = "Main Scripts",
